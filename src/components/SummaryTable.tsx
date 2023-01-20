@@ -6,8 +6,8 @@ export function SummaryTable() {
 
   const summaryDates = generateDatesFromYearBeginning();
 
-  const minimumSummaryDatesZize = 18 * 7; // 18 weeks
-  const amountOfDaysToFill = minimumSummaryDatesZize - summaryDates.length;
+  const minimumSummaryDatesSize = 18 * 7; // 18 weeks
+  const amountOfDaysToFill = minimumSummaryDatesSize - summaryDates.length;
 
   return (
     <div className="w-full flex">
